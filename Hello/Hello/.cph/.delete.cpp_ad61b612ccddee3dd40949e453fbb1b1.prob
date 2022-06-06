@@ -1,0 +1,1 @@
+{"name":"Local: delete","url":"d:\\ProjectForIntern\\Hello\\Hello\\delete.cpp","tests":[{"id":1654359107600,"input":"BWBWBWB 3","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ProjectForIntern\\Hello\\Hello\\delete.cpp","group":"local","local":true}

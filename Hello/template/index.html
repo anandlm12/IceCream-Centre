@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+{% block body %}
+<style>
+  .container {
+    position: relative;
+    font-family: gilroy;
+  }
+  .front_image {
+    size: auto;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text-block {
+  background-color: rgb(0,0,0);
+  background-color: rgba(19, 45, 13, 0.4);
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: bold;
+  border: 2px solid #ffffffd2;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+</style>
+<div class="front_image">
+  <img src="/static/img/IceCream.jpg" class="d-block w-100" alt="...">
+</div>
+<div class="text-block">
+  <p>Yummy</p>
+  <p>Let's taste it with your love!</p>
+</div>
+
+
+<div class="container my-4">
+<h1 class="my-2 text-center">Select from our range of Icecreams!</h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/Icecream2.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">With the variety of over 100 icecreams starting from range Rs 100 to Rs 1000.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                  <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                </div>
+                <!-- <small class="text-muted">9 mins</small> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/Pancake.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">With the variety of over 60+ pancakes starting from range Rs 60 to Rs 1200.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                  <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                </div>
+                <!-- <small class="text-muted">9 mins</small> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/cake.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">With the variety of over 210+ icecreams starting from range Rs 800 to Rs 10000.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                  <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                </div>
+                <!-- <small class="text-muted">9 mins</small> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock body %}
