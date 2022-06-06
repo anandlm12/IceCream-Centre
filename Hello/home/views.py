@@ -9,7 +9,6 @@ def index(request):
         'variable1' : "Hey!",
         'variable2' : "Hey Anand"
     }
-    messages.success(request, "this is a test message")
     return render(request, 'index.html', context)
 
 def about(request):
